@@ -1,0 +1,1223 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+.grid_skills{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+    padding-bottom: 3rem;
+}
+.grid_skills>div{
+      text-align: center;
+}
+.grid_personal{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 10px;
+    padding-bottom: 3rem;
+}
+.grid_personal>div{
+    text-align: center;
+}
+.grid_education{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 30px;
+    padding-bottom: 3rem;
+}
+.grid_education>div{
+    text-align: center;
+}
+.grid_experience{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 30px;
+    padding-bottom: 3rem;
+}
+.grid_buttons{
+    display: grid;
+    grid-template-columns: auto 50%;
+    grid-gap: 10px;
+    padding-bottom: 8rem;
+}
+.grid_btn_as{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+    padding-bottom: 1.5rem;
+}
+.bg_header{
+    background-color: #ff7315;
+    width: 100%;
+    height: 20rem;
+}
+.header{
+    margin-left: 10rem;
+    margin-top: 2rem;
+    display: inline-block;
+}
+.portname_header{
+    display: inline-block
+}
+.portname_header h1{
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: white;
+}
+.portname_header p{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+}
+.information{
+    box-shadow:  10px 5px #aaaaaa;
+    padding: 1.1rem;
+    background-color: white;
+    border-radius: 10px;
+}
+.information h1{
+    font-family: 'Kanit', sans-serif;
+}
+.information span{
+    color: #ff7315;
+}
+.information p{
+    font-family: 'Kanit', sans-serif;
+}
+#about_me{
+    border-spacing: 0.5rem 0.5rem;
+}
+.container_information img{ 
+    width: 20rem;
+    height: 20rem;
+}
+.container_information {
+   margin: auto;
+   width: 50%;
+   position: relative;
+   top: -8rem;
+}
+.line{
+    margin: auto;
+    width: 60%;
+    background-color: #aaaaaa;
+}
+.close_color{
+    width: 100%;
+    height: 2rem;
+    background-color: #ff7315;
+}
+.bold_td{
+    font-weight: bold;
+}
+td{
+    font-family: 'Kanit', sans-serif;
+}
+.skills_topic{
+    margin: auto;
+    width: 50%;
+}
+.skills_topic h2{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Kanit', sans-serif;
+    color:#ff7315;
+}
+.skills_container{
+    margin: auto;
+    width: 60%;
+    font-family: 'Kanit', sans-serif;
+    background-color: white;
+    box-shadow: 10px 5px #aaaaaa;
+    border-radius: 10px;
+}
+#left_skills{
+ grid-column: 1/span 1;
+}
+#left_skills p{
+   text-align: left;
+   margin-left: 2rem;
+   }
+   .wrap_skills{
+       margin-bottom: 5rem;
+   }
+   .percent-space{
+       width: 80%;
+       height: 1.5rem;
+       background-color: rgba(0, 0, 0,0.2);
+       margin-left: 2rem;
+       border-radius: 5px;
+   }
+.percent1-left{
+    width: 40%;
+    height: 1.5rem;
+    color: white;
+    background-color: #ff7315;
+    border-radius: 5px;
+}
+.percent2-left{
+    width: 40%;
+    height: 1.5rem;
+    color: white;
+    background-color: #ff7315;
+    border-radius: 5px;
+}
+.percent3-left{
+    width: 25%;
+    height: 1.5rem;
+    color: white;
+    background-color: #ff7315;
+    border-radius: 5px;
+}
+.percent4-left{
+    width: 35%;
+    height:1.5rem;
+    color: white;
+    background-color: #ff7315;
+    border-radius: 5px;
+}
+.percent5-left{
+    width: 30%;
+    height: 1.5rem;
+    color: white;
+    background-color: #ff7315;
+    border-radius: 5px;
+}
+.percent6-left{
+    width: 60%;
+    height: 1.5rem;
+    color: white;
+    background-color: #ff7315;
+    border-radius: 5px;
+}
+#right_skills{
+    grid-column: 2/span 1;
+}
+#right_skills p{
+    grid-column: 2/span 1;
+    text-align: left;
+    margin-left: 2rem;
+}
+.percent1-right{
+    width: 60%;
+    height: 1.5rem;
+    color: white;
+    background-color: #ff7315;
+    border-radius: 5px;
+}
+.percent2-right{
+    width: 35%;
+    height: 1.5rem;
+    color: white;
+    background-color: #ff7315;
+    border-radius: 5px;
+}
+.percent3-right{
+    width: 40%;
+    height: 1.5rem;
+    color: white;
+    background-color: #ff7315;
+    border-radius: 5px;
+}
+.percent4-right{
+    width: 45%;
+    height:1.5rem;
+    color: white;
+    background-color: #ff7315;
+    border-radius: 5px;
+}
+.percent5-right{
+    width: 65%;
+    height: 1.5rem;
+    color: white;
+    background-color: #ff7315;
+    border-radius: 5px;
+}
+.percent6-right{
+    width: 60%;
+    height: 1.5rem;
+    color: white;
+    background-color: #ff7315;
+    border-radius: 5px;
+}
+/* เว้น */
+.personal_topic{
+    margin: auto;
+    width: 60%;
+}
+.personal_topic h2{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Kanit', sans-serif;
+    color:#ff7315;
+}
+.content_container{
+    margin: auto;
+    width: 60%;
+    padding-bottom: 3rem;
+}
+#first_content{
+    grid-column: 1 / span 1;
+    font-family: 'Kanit', sans-serif;
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px #aaaaaa;
+    border-radius: 10px;
+    border-bottom: 2rem solid #ff7315;
+}
+#first_content p{
+    font-size: 1rem;
+    margin: auto;
+    width: 50%;
+  text-align: left;
+  margin-bottom: 1rem;
+  
+}
+#second_content{
+    grid-column: 2 / span 1;
+    font-family: 'Kanit', sans-serif;
+   
+    box-shadow: 10px 10px 10px 10px #aaaaaa;
+    border-radius: 10px;
+}
+#second_content p{
+    font-size: 1rem;
+    margin: auto;
+    width: 61%;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+#third_content{
+    grid-column: 3 / span 1;
+    font-family: 'Kanit', sans-serif;
+    box-shadow: 10px 10px 10px 10px #aaaaaa;
+    border-radius: 10px;
+    
+}
+#third_content p{
+    margin-left: 2rem;
+    text-align: left;
+}
+.percent-thai{
+    width: 100%;
+    height: 1.5rem;
+    color: white;
+    background-color: #ff7315;
+    border-radius: 5px;
+}
+.percent-english{
+    width: 60%;
+    height: 1.5rem;
+    color: white;
+    background-color: #ff7315;
+    border-radius: 5px;
+}
+.expand{
+    width: 50rem;
+}
+.percent-space-lang{
+    width: 80%;
+    height: 1.5rem;
+    background-color: rgba(0, 0, 0,0.2);
+    margin-left: 0.5rem;
+    border-radius: 5px;
+}
+.education_topic{
+    margin: auto;
+    width: 50%;
+}
+.education_topic h2{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Kanit', sans-serif;
+    color:#ff7315;
+}
+.education_container{
+    margin: auto;
+    width: 60%;
+}
+#first_education{
+    grid-column: 1 / span 1;
+    font-family: 'Kanit', sans-serif;
+    background-color: white;
+    box-shadow: 10px 5px #aaaaaa;
+    border-radius: 10px;
+    border-bottom: 1.5rem solid #ff7315;
+}
+#first_education h2{
+    text-align: left;
+    margin-left: 2rem;
+    font-family: 'Kanit', sans-serif;
+}
+#first_education p{
+    text-align: left;
+    margin-left: 2rem;
+    font-family: 'Kanit', sans-serif;
+}
+/*second_education*/
+#arrow-right {
+    width: 0; 
+    height: 0; 
+    border-top: 1.3rem solid transparent;
+    border-bottom: 1.3rem  solid transparent;
+    border-left: 1.3rem  solid #ff7315;
+   position: relative;
+   top: 3.2rem;
+  }
+  .bold_2017{
+      color: white;
+      background-color: #ff7315;
+      font-size: 1rem;
+  }
+  .bold_mdt{
+       color: #ff7315;
+      background-color: white;
+      font-size: 1rem;
+  }
+  .table_second{
+      margin: auto;
+      width: 60%;
+  }
+/*third_education*/
+#arrow-left {
+    position: relative;
+    top: 3.2rem;
+    width: 95%; 
+    height: 0%; 
+    border-top: 1.3rem solid transparent;
+    border-bottom: 1.3rem  solid transparent;
+    border-right: 1.3rem  solid #ff7315;
+  }
+#fourth_education{
+    grid-column: 2 / span 1;
+    font-family: 'Kanit', sans-serif;
+    background-color: white;
+    border-bottom: 1.5rem solid #ff7315;
+    box-shadow: 10px 5px #aaaaaa;
+    border-radius: 10px;
+}
+#fourth_education h2{
+    text-align: left;
+    margin-left: 2rem;
+    font-family: 'Kanit', sans-serif;
+}
+#fourth_education p{
+    text-align: left;
+    margin-left: 2rem;
+    font-family: 'Kanit', sans-serif;
+}
+.experience_topic {
+    margin: auto;
+    width: 50%;
+}
+.experience_topic h2{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Kanit', sans-serif;
+    color:#ff7315;
+}
+.experience_container{
+    margin: auto;
+    width: 60%;
+    padding-bottom: 3rem;
+}
+#activities{
+    margin: auto;
+    width: 80%;
+    background-color: white;
+    border-left: 2rem solid #ff7315;
+    border-radius: 10px;
+    padding-bottom: 1rem;
+    box-shadow: 10px 5px #aaaaaa;
+}
+#activities h2{
+    text-align: left;
+    margin-left: 2rem;
+    font-family: 'Kanit', sans-serif;
+}
+#activities ul{
+    margin-left: 2rem;
+ }
+ #activities li{
+     font-family: 'Kanit', sans-serif;
+     font-size: 1rem;
+     color: black;
+ }
+#competition{
+    margin: auto;
+    width: 80%;
+    background-color: white;
+    border-left: 2rem solid #ff7315;
+    border-radius: 10px;
+    padding-bottom: 1rem;
+    box-shadow: 10px 5px #aaaaaa;
+}
+#competition h2{
+    text-align: left;
+    margin-left: 2rem;
+    font-family: 'Kanit', sans-serif;
+}
+#competition ul{
+   margin-left: 2rem;
+}
+#competition li{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
+    color: black;
+}
+.button_container{
+    margin: auto;
+    width: 60%;
+}
+#assignments{
+    grid-column: 1 / span 2;
+}
+#assignments h2{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
+    color: black;
+    font-size: 1.5rem;
+}
+#projects{
+    grid-column: 1 / span 1;
+}
+#facebook{
+    grid-column: 2 / span 1;
+}
+.grid_btn_as{
+    margin-top: 2rem;
+}
+.btn_as1{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
+    color: white;
+    grid-column: 1/span 1;
+    padding: 2rem 0.5rem 2rem 0.5rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #ff7315;
+    box-shadow: 2px 3px #aaaaaa;
+    transition: 0.3s;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+.btn_as1:hover{
+    color: black;
+   background-color: white;
+   box-shadow:10px 5px #aaaaaa;
+   transition: 0.3s;
+}
+.btn_as2{
+    grid-column: 2/span 1;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
+    color: #ff7315;
+    padding: 2rem 0.5rem 2rem 0.5rem;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    box-shadow: 2px 3px #aaaaaa;
+    transition: 0.3s;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+.btn_as2:hover{
+    color: white;
+   background-color: orangered;
+   box-shadow:10px 5px #aaaaaa;
+   transition: 0.3s;
+}
+.btn_as3{
+    grid-column: 1/span 1;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
+    color: #ff7315;
+    padding: 2rem 0.5rem 2rem 0.5rem;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    box-shadow: 2px 3px #aaaaaa;
+    transition: 0.3s;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+.btn_as3:hover{
+    color: white;
+   background-color: orangered;
+   box-shadow:10px 5px #aaaaaa;
+   transition: 0.3s;
+}
+.btn_as4{
+    grid-column: 2/span 1;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
+    color: white;
+    padding: 2rem 0.5rem 2rem 0.5rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #ff7315;
+    box-shadow: 2px 3px #aaaaaa;
+    transition: 0.3s;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+.btn_as4:hover{
+    color: black;
+   background-color: white;
+   box-shadow:10px 5px #aaaaaa;
+   transition: 0.3s;
+}
+#projects{
+    background-color: white;
+    box-shadow: 10px 5px #aaaaaa;
+    padding-bottom: 2rem;
+    border-radius: 10px;
+}
+#projects h2{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
+    color: black;
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+.btn_projects{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.3rem;
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: palevioletred;
+    box-shadow: 2px 3px #aaaaaa;
+    transition: 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+     display: inline-block;
+}
+.btn_projects:hover{
+    box-shadow: 10px 5px #aaaaaa;
+    background-color: whitesmoke;
+    color: palevioletred;
+    transition: 0.3s;
+}
+.move_projects{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+#facebook{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 5px #aaaaaa;
+    padding-bottom: 2rem;
+}
+#facebook h2{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
+    color: black;
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+.move_facebook{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+.btn_facebook{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.3rem;
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(72, 72, 255);
+    box-shadow: 2px 3px #aaaaaa;
+    transition: 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+.btn_facebook:hover{
+    box-shadow: 10px 5px #aaaaaa;
+    background-color: whitesmoke;
+    color: rgb(72, 72, 255);
+    transition: 0.3s;
+}
+#footerPort{
+    width: 100%;
+    height: 100%;
+    background-color: #ff7315;
+}
+.text_footer{
+   text-align: center;
+}
+.text_footer p{
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    font-size: 1.3rem;
+    display: inline-block
+}
+
+
+/*////////////////////////project///////////////////////////*/
+.header_project{
+    width: 100%;
+    height: 11rem;
+    background-color:  #ff7315;
+    display: inline-block;
+    text-align: center;
+}
+.name_header{
+    text-align: center;
+    display: inline-block;
+}
+.name_header h1{
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+    font-size: 3rem;
+    padding: 1rem;
+    border : 0.25rem solid white;
+    color: white;
+    box-shadow: 10px 5px whitesmoke;
+}
+.grid_projects{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap:20px;
+    padding-top: 1rem;
+}
+.project_container{
+    margin: auto;
+    width: 50%;
+}
+.first_img{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.second_img{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.third_img{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.line_project{
+    margin: auto;
+    width: 80%;
+    background-color: #aaaaaa;
+}
+.lastline{
+    margin: auto;
+    width: 60%;
+    margin-top: 3rem;
+}
+.number_projects{
+    text-align: center;
+}
+.number_projects h1{
+    display: inline-block;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 2.2rem;
+    padding: 0.5rem 1.7rem 0.5rem 1.7rem;
+    border-radius:50%;
+    background-color:#ff7315;
+    color: white;
+    box-shadow: 5px 5px #aaaaaa;
+}
+.information_projects1{
+    margin: auto;
+    width: 50%;
+}
+.information_projects2{
+    margin: auto;
+    width: 50%;
+}
+.information_projects3{
+    margin: auto;
+    width: 50%;
+}
+#first_project{
+    grid-column: 1/span 1;
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    border-radius: 10px; 
+    border-bottom: 3rem solid #ff7315;
+    padding-bottom: 4rem;
+}
+#first_project img{
+    margin-top: 2rem;
+    width: 75%;
+    height: 75%;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+#first_project h2{
+    display: inline-block;
+    padding: 1.5rem;
+   background-color:#ff7315;
+}
+#second_project{
+    grid-column: 1/span 1;
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    border-radius: 10px;
+    border-bottom: 3rem solid #ff7315;
+    padding-bottom: 4rem;
+}
+#second_project img{
+    margin-top: 2rem;
+    width: 50%;
+    height: 40%;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+#second_project h2{
+    display: inline-block;
+    padding: 1.5rem;
+   background-color:#ff7315;
+}
+#third_project{
+    grid-column: 1/span 1;
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    border-radius: 10px;
+    border-bottom: 3rem solid #ff7315;
+    padding-bottom: 4rem;
+}
+#third_project img{
+    margin-top: 2rem;
+    width: 70%;
+    height: 70%;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+#third_project h2{
+    display: inline-block;
+    padding: 1.5rem;
+   background-color:#ff7315;
+}
+.back_container{
+    text-align: center;
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+}
+.btn_back{
+    display: inline-block;
+}
+.btn_back a{
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.7rem;
+    border: 0.25rem solid #ff7315;
+    color: black;
+    text-transform: uppercase;
+    padding: 1rem;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+.btn_back a:hover{
+    background-color: #ff7315;
+    color: white;
+    transition: 0.4s;
+    box-shadow: 5px 10px #aaaaaa;
+}
+.text_footer{
+    text-align: center;
+   
+}
+.text_footer p{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    display: inline-block
+}
+#footer{
+    width: 100%;
+    height: 100%;
+    background-color: #ff7315;
+}
+@media only screen and (max-width: 768px) {
+    #about_me{
+        font-size: 0.7rem;
+    }
+    .header{
+        margin-left: 5rem;
+        margin-top: 2rem;
+        display: inline-block;
+    }
+    .name_header h1{
+        font-family: 'Kanit', sans-serif;
+        text-transform: uppercase;
+        font-size: 2rem;
+        color: white;
+    }
+    .name_header p{
+        font-family: 'Kanit', sans-serif;
+        font-size: 1.5rem;
+        color: white;
+    }
+    .container_information{
+        margin-top: 2rem;
+    }
+    .container_information img{ 
+        width: 15rem;
+        height: 15rem;
+    }
+    .information h1{
+        font-size: 1rem;
+        font-family: 'Kanit', sans-serif;
+    }
+    .information p{
+        font-size: 1rem;
+        font-family: 'Kanit', sans-serif;
+    }
+    .container_information {
+        margin: auto;
+        width: 70%;
+        position: relative;
+        top: -8rem;
+     }
+     .skills_container{
+        margin: auto;
+        width:90%;
+        font-family: 'Kanit', sans-serif;
+        background-color: white;
+        box-shadow: 10px 5px #aaaaaa;
+        border-radius: 10px;
+    }
+    #left_skills p {
+     margin-left: 1rem;
+}
+#right_skills p {
+    margin-left: 1rem;
+}
+.percent-space{
+    width: 80%;
+    height: 1.5rem;
+    background-color: rgba(0, 0, 0,0.2);
+    margin-left: 1rem;
+    border-radius: 5px;
+}
+#first_content{
+    grid-column: 1/span 3;
+}
+#second_content{
+    grid-column: 1/span 3;
+}
+#third_content{
+    grid-column: 1/span 3;
+}
+#first_education{
+    grid-column: 1 / span 1;
+}
+#first_education h2{
+    text-align: left;
+    margin-left: 2.5rem;
+    font-size:1.4rem; 
+}
+#first_education p{
+    text-align: left;
+    margin-left: 1rem;
+}
+.education_container{
+    margin: auto;
+    width: 80%;
+}
+#fourth_education h2{
+    text-align: left;
+    margin-left: 3.8rem;
+    font-size:1.4rem;
+}
+#fourth_education p{
+    text-align: left;
+    margin-left: 1rem;
+}
+.experience_container{
+    margin: auto;
+    width: 95%;
+    padding-bottom: 3rem;
+}
+#activities ul{
+    margin-left: 0;
+ }
+#competition ul{
+    margin-left: -0.7rem;
+ }
+ #projects{
+    grid-column: 1 / span 2;
+}
+#facebook{
+    grid-column: 1 / span 2;
+}
+#projects h2{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
+    color: black;
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+#footerPort{
+    width: 100%;
+    height:100%;
+    background-color: #ff7315;
+}
+.text_footer{
+   text-align: center;
+}
+.text_footer p{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
+    display: inline-block 
+}
+.project_container{
+    margin: auto;
+    width: 90%;
+}
+.text_footer p{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
+    color: white;
+    display: inline-block
+}
+#first_project img{
+    width: 85%;
+    height: 85%;   
+}
+#second_project img{
+    width: 60%;
+    height: 60%;
+}
+#third_project img{
+    width: 80%;
+    height: 70%;  
+}
+.information_projects1{
+    margin: auto;
+    width: 80%;
+    margin-left: 3rem;
+}
+.information_projects2{
+    margin: auto;
+    width: 80%;
+    margin-left: 3rem;
+}
+.information_projects3{
+    margin: auto;
+    width: 80%;
+    margin-left: 3rem;
+}
+#footer{
+    width: 100%;
+    height: 100%;
+    height: 5rem;
+    background-color: #ff7315;
+}
+}
+@media only screen and (max-width: 500px) {
+    #about_me{
+        font-size: 0.7rem;
+    }
+    .header{
+        margin-left: 5rem;
+        margin-top: 2rem;
+        display: inline-block;
+    }
+    .name_header h1{
+        font-family: 'Kanit', sans-serif;
+        text-transform: uppercase;
+        font-size: 2rem;
+        color: white;
+    }
+    .name_header p{
+        font-family: 'Kanit', sans-serif;
+        font-size: 1.5rem;
+        color: white;
+    }
+    .container_information{
+        margin-top: 2rem;
+    }
+    .container_information img{ 
+        width: 15rem;
+        height: 15rem;
+    }
+    .information h1{
+        font-size: 1rem;
+        font-family: 'Kanit', sans-serif;
+    }
+    .information p{
+        font-size: 1rem;
+        font-family: 'Kanit', sans-serif;
+    }
+    .container_information {
+        margin: auto;
+        width: 70%;
+        position: relative;
+        top: -8rem;
+     }
+     .skills_container{
+        margin: auto;
+        width:90%;
+        font-family: 'Kanit', sans-serif;
+        background-color: white;
+        box-shadow: 10px 5px #aaaaaa;
+        border-radius: 10px;
+    }
+    #left_skills p {
+     margin-left: 1rem;
+}
+#right_skills p {
+    margin-left: 1rem;
+}
+.percent-space{
+    width: 80%;
+    height: 1.5rem;
+    background-color: rgba(0, 0, 0,0.2);
+    margin-left: 1rem;
+    border-radius: 5px;
+}
+#first_content{
+    grid-column: 1/span 3;
+}
+#second_content{
+    grid-column: 1/span 3;
+}
+#third_content{
+    grid-column: 1/span 3;
+}
+#first_education{
+    grid-column: 1 / span 1;
+}
+#first_education h2{
+    text-align: left;
+    margin-left: 2.5rem;
+    font-size:1.4rem; 
+}
+#first_education p{
+    text-align: left;
+    margin-left: 1rem;
+}
+.education_container{
+    margin: auto;
+    width: 80%;
+}
+#fourth_education h2{
+    text-align: left;
+    margin-left: 3.8rem;
+    font-size:1.4rem;
+}
+#fourth_education p{
+    text-align: left;
+    margin-left: 1rem;
+}
+.experience_container{
+    margin: auto;
+    width: 95%;
+    padding-bottom: 3rem;
+}
+#activities ul{
+    margin-left: 0;
+ }
+#competition ul{
+    margin-left: -0.7rem;
+ }
+ #projects{
+    grid-column: 1 / span 2;
+}
+#facebook{
+    grid-column: 1 / span 2;
+}
+#projects h2{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
+    color: black;
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+#footerPort{
+    width: 100%;
+    height: 100%;
+    background-color: #ff7315;
+}
+.text_footer{
+   text-align: center;
+}
+.text_footer p{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
+    display: inline-block
+}
+
+/*project*/
+.project_container{
+    margin: auto;
+    width: 90%;
+}
+.text_footer p{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
+    color: white;
+    display: inline-block
+}
+#first_project img{
+    width: 85%;
+    height: 85%;   
+}
+#second_project img{
+    width: 60%;
+    height: 60%;
+}
+#third_project img{
+    width: 80%;
+    height: 70%;  
+}
+.information_projects1{
+    margin: auto;
+    width: 80%;
+    margin-left: 3rem;
+}
+.information_projects2{
+    margin: auto;
+    width: 80%;
+    margin-left: 3rem;
+}
+.information_projects3{
+    margin: auto;
+    width: 80%;
+    margin-left: 3rem;
+}
+#footer{
+    width: 100%;
+    height: 100%;
+    background-color: #ff7315;
+}
+}
